@@ -1,31 +1,68 @@
-# Interactive Data Visualization
+#  Project3-Riyadh Villas Aqar 
 
 
-## Based on what you’ve learned until now, use NumPy, pandas, matplotlib, seaborn, and Plotly to create a project of your choosing.
+## Team members
+| Team members     | Role                                                                      |
+| ---------------- | ------------------------------------------------------------------------- |
+| Hajar Alamer | EDA , Ploting charts, Helped in dashboard plotly.|
+| Rakan Almuwainie   | Creat dashboard plotly|
+| Linah Alqahtani    | Ploting charts , README markdown file.|
 
-This project must at least satisfy the following minimum requirements:
 
-- Use the following dataset.
-    - https://www.kaggle.com/datasets/reemamuhammed/riyadh-villas-aqar
-- EDA
-    - Apply the essential EDA steps: head, shape, info, describe, and missing values.
-    - Apply the additional EDA steps based on your dataset needs.
-- Data Visualization
-    - Drive meaningful insights (at least 10 different charts).
-    - Apply chart format including:
-    - Choose a specific style for your charts.
-        - Apply one color palette from your choice on all charts.
-        - Use the title, x-y labels, font size, figure size, and legends.
-- Create an interactive dashboard using Plotly.
-- Report your final conclusion and findings in one page (readme markdown file).
-    - Team members and their duties.
-    - Introduction (Problem, objectives).
-    - Dataset Overview and Source.
-    - Describe the final ten insights.
-    
-- The Final presentation will be on Sunday (less than 10 min for each group).
-- Due Date: Sat, 19 Aug, 11:00 pm.
+## Dataset Overview:
+The dataset is available through the [kaggle.](https://www.kaggle.com/datasets/reemamuhammed/riyadh-villas-aqar).It contains Riyadh Villas Aqar data.
+There are 7.24 MB,(46826) rows and 26 columns, including Front, Rooms, Bathrooms, PropertyAge, Price, Location and more.
 
-## Final Deliverables:
-- Notebook file(.ipynb).
-- README.md file.
+## Objective
+The objective is to analyze and visualize Riyadh Villas Aqar dataset to give insights for the villas in the regions and neighborhoods of Riyadh .
+
+
+
+
+## Dataset Description:
+| Column               | Description                                                                                                                                                              |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Front | The view of the building. |
+| Rooms | The numbers of rooms in villa. |
+| Lounges |The number of lounge|
+| Bathrooms | The number of bathroom. |
+| Street Width | Main street width. |
+| Stairs | The number of stair. |
+| PropertyAge | The current age of the building.|
+| DriverRoom | Do you have driver room or not. |
+| Tent | Do you have tent or not.|
+| Patio | Do you have patio or not. |
+| Kitchen | Do you have kitchen or not|
+| OutdoorRoom |  Do you have outdoorRoom or not |
+| Garage | Do you have garage or not|
+| Duplex | Is it duplex or not |
+| Space  | space of the Villa.                                                                                                                            
+| Apartments | The Number of apartments |
+| MaidRoom | Do you have maidRoom or not. |
+| Elevator | Do you have elevator or not. |
+| Furnihsed | Is it furnished or not. |
+| Pool | Do you have pool or not. |
+| Basement | Do you have basement or not. |
+| Neighbourhood | The names of the affiliated neighborhoods in every region. |
+| Location | The location of the building in Riyadh. |
+| Price | The price of building. |
+| Square price | The price for each square meter. |
+
+
+
+## Final  Insights
+ 
+|     | Insight                                                               |
+| --- | --------------------------------------------------------------------- |
+| 1   | `North-Riyadh` is the highest in space and number of rooms.                            |
+| 2   | `West-Riyadh` is the most in terms of apartments, followed by `East-Riyadh`.           |
+| 3   | `Twuiq neighborhood` is The top `neighborhood` out of Top 10 neighborhoods .    |
+| 4   | Sorting areas according to Average price is `North-Riyadh`,`East-Riyadh`,`Center-Riyadh`,`West-Riyadh` and `South-Riyadh`.    |
+| 5   | In `Center-Riyadh` `Al Rabwah neighborhood`  is the highest `neighborhood` based on number of Lounges.       |
+| 6   | `Space` and `price` have a positive relationship.  |
+| 7   | Property Age from 8 to 24 has the highest price.  |
+| 8   | Center-Riyadh contains the least numbers of villas. |
+| 9   | The higher price for duplex villas is in north-Riyadh.  |
+| 10   | The percentage of real estate less than 10 years old in the center of Riyadh is the lowest percentage |
+| 11  | The number of villas in the center of Riyadh is very few. |
+| 12 | Rooms are the highest in the number of features, and the pools are the least . |
